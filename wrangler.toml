@@ -11,8 +11,8 @@ crons = ["* * * * *"]
 
 [[d1_databases]]
 binding = "DB"
-database_name = "${xugou_db}" # 使用占位符
-database_id = "${57271c21-fee9-4212-8473-7af8abb72bdd}" # 使用占位符
+database_name = "${D1_DATABASE_NAME}" # 使用占位符
+database_id = "${D1_DATABASE_ID}" # 使用占位符
 
 [assets]
 binding = "ASSETS"
